@@ -11,4 +11,4 @@ matplotlib-scalebar
 torch
 torchvision
 zernikepy
-psf-generator<=0.0.x
+psf-generator<=0.0.2
