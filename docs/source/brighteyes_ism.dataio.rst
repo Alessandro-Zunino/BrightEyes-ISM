@@ -9,4 +9,4 @@ dataio
 .. toctree::
    :maxdepth: 4
 
-   brighteyes_ism.dataio.mcs
+   brighteyes_mcs_file.reader_legacy

@@ -26,7 +26,10 @@ The simulation module contains libraries for:
 
 The dataio module contains libraries for:
 
-* Reading the data and metadata from the MCS software (https://doi.org/10.21105/joss.07125)
+* Reading data and metadata from the MCS software (https://doi.org/10.21105/joss.07125).
+
+MCS data format support has been moved to [brighteyes-mcs-file](https://github.com/VicidominiLab/BrightEyes-MCS-File). Legacy MCS reading is available from `brighteyes_mcs_file.reader_legacy`.
+
 
 ----------------------------------
 

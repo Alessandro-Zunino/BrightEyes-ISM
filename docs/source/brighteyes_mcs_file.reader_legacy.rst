@@ -1,7 +1,7 @@
-mcs
+reader_legacy
 =================================
 
-.. automodule:: brighteyes_ism.dataio.mcs
+.. automodule:: brighteyes_mcs_file.reader_legacy
    :members:
    :undoc-members:
    :show-inheritance:

@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 
 from numbers import Number
@@ -14,10 +15,9 @@ from ..simulation.detector import det_coords, airy_to_hex
 
 #%%
 
-from matplotlib import cm
 from matplotlib.colors import ListedColormap
 
-_hot = cm.get_cmap('hot', 256)
+_hot = mpl.colormaps['hot'].resampled(256)
 _hot_array = _hot(np.linspace(0, 1, 256))
 
 _bluehot = _hot_array.copy()
@@ -667,7 +667,7 @@ class ColorMap2D:
         intensity = np.clip(intensity_map, self.int_bounds[0], self.int_bounds[1])
         intensity = (intensity - self.int_bounds[0]) / (self.int_bounds[1] - self.int_bounds[0])
 
-        cmap = plt.get_cmap(self.colormap)
+        cmap = mpl.colormaps[self.colormap]
         N = cmap.N
         cmapArray = np.zeros((N, 3))
 
