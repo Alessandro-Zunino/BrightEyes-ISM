@@ -6,5 +6,10 @@ src/brighteyes_ism.egg-info/
 src/brighteyes_ism.egg-info/*
 venv
 .*
+!.github/
+!.github/workflows/
+!.github/workflows/**
 *.pyc
 *.pyo
+
+examples/*.h5

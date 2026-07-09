@@ -75,7 +75,7 @@ The modules can be imported as in the following example
    import brighteyes_ism.analysis.APR_lib as apr
    import brighteyes_ism.simulation.PSF_sim as psf
    #for reading MCS legacy files, the following import is required
-   from brighteyes_mcs_file import reader_legacy as mcs 
+   from brighteyes_mcs_reader import reader_legacy as mcs 
    
 Note that the installation requires an hyphen symbol (brighteyes-ism), but the import requires an underscore symbol (brighteyes_ism).
 
