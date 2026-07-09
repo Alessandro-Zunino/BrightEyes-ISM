@@ -6,7 +6,7 @@ matplotlib
 joblib
 tqdm
 h5py
-brighteyes-mcs-file>=0.4.1
+brighteyes-mcs-reader>=0.1.0
 statsmodels
 matplotlib-scalebar
 torch

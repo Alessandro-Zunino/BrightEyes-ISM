@@ -8,3 +8,5 @@ venv
 .*
 *.pyc
 *.pyo
+
+examples/*.h5
